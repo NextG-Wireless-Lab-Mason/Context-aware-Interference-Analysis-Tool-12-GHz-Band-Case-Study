@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "e2ea150b-ee23-47e8-86a0-4560777d7d21",
+		"name": "ASCENT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21906920"
+	},
+	"item": [
+		{
+			"name": "SubmitSimulatorFeedback",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Interference_values_UMi_each_Bs\": [\r\n        -31.586625574403882,\r\n        -35.191424022093855,\r\n        -18.56990745856593,\r\n        -35.47686461913297,\r\n        -38.474774043668745,\r\n        -11.141635807315321,\r\n        -62.20374665019345,\r\n        -19.370609097823518,\r\n        -26.541763404108263,\r\n        -47.50175471126143,\r\n        -17.88587437929757,\r\n        -35.195019551854266,\r\n        -52.674793302083586,\r\n        -29.62489982828368,\r\n        2.7971202581528343,\r\n        6.107579300585324,\r\n        -25.10698899447582,\r\n        -69.47948320793697,\r\n        -50.725313822900524,\r\n        -55.20441399983092,\r\n        -31.93346957378436,\r\n        -40.95931464486423,\r\n        -39.14056440921604,\r\n        -21.701477074230823,\r\n        -32.91510580409362,\r\n        -31.42415785610693,\r\n        -35.99502355385156,\r\n        -26.626390561350718,\r\n        -25.523930166508602,\r\n        -23.923752659832083,\r\n        -41.86998035329006,\r\n        -47.895659185236084,\r\n        -37.21194865204484\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:8000/submitSimulatorFeedback",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"submitSimulatorFeedback"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSimulatorInput",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:8000/getSimulatorInput",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"getSimulatorInput"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateSimulatorSettings",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"base_station_count\": 50\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:8000/updateSimulatorSettings",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"updateSimulatorSettings"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

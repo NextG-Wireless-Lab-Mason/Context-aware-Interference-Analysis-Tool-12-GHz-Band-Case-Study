@@ -1,0 +1,18 @@
+__pycache__/
+.*/
+lib/
+FrontEnd/node_modules/
+
+
+# Database files
+core/*.db
+ascent/db/*.db
+
+# API Key
+ascent/weatherapi.key
+
+# Test Logs
+ascent/tests/*.log
+ascent/tests/*.xml
+ascent/tests/*.db
+ascent/tests/reports/archive/*
