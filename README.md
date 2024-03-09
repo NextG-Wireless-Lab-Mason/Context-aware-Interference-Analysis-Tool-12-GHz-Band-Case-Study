@@ -19,4 +19,6 @@ This project is generously supported by the National Science Foundation under Aw
 
 **Relevant Publications**
 
- [1] Niloy T. R., Hassan Z., Stephenson N., and Shah, V. K., "Interference Analysis of Coexisting 5G Networks and NGSO FSS Receivers in the 12 GHz Band," in IEEE Wireless Communications Letters, doi: 10.1109/LWC.2023.3281769. Link: https://ieeexplore.ieee.org/document/10139318 
+ [1] T. R. Niloy, Z. Hassan, N. Stephenson, and V. K. Shah, Interference Analysis of Coexisting 5G Networks and NGSO FSS Receivers in the 12 GHz Band, IEEE Wireless Comms. Letters (WCL), 2023 Link: https://ieeexplore.ieee.org/document/10139318 
+ [2] T. Niloy, S. Kumar, A. Hore, Z. Hassan, E. Burger, C. Dietrich, J. Reed, and V. K. Shah, ASCENT: A Context-Aware Spectrum Coexistence Design and 
+Implementation Toolset for Policymakers in Satellite Bands, IEEE Conference of Dynamic Spectrum Access Networks (DySPAN), 2024. Link: https://arxiv.org/abs/2402.05273
